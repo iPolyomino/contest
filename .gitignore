@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# OMake
+*.omc
+.omakedb
+.omakedb.lock
