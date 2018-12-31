@@ -2,21 +2,18 @@
 
 using namespace std;
 
-int
-main ()
+int main()
 {
-  string s;
-  cin >> s;
+	string s;
+	cin >> s;
 
-  int count = 0;
-  for (int i = 0; i < 3; i++)
-    {
-      if (s[i] == '1')
-	{
-	  count++;
+	int count = 0;
+	for (int i = 0; i < 3; i++) {
+		if (s[i] == '1') {
+			count++;
+		}
 	}
-    }
-  cout << count << endl;
+	cout << count << endl;
 
-  return 0;
+	return 0;
 }

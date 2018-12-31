@@ -1,4 +1,4 @@
 #!/bin/zsh
 
-indent -gnu */**/*.cpp
+indent -linux */**/*.cpp
 omake clean
