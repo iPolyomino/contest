@@ -165,4 +165,16 @@ eprintln($(CWD)/OMakefile is not configured)
 
 CXXFLAGS = -O2 -Wall
 
+.SUBDIRS: challenge-book
+	targs = $(rootname $(glob *.cpp))
+	$(targs): %: %.cpp
+		$(CXX) $(CXXFLAGS) -o $@ $<
+
+	all: $(targs)
+
+	clean:
+		rm -f $(targs)
+
+	.DEFAULT: all
+
 .SUBDIRS: atcoder
