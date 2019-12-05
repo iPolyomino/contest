@@ -11,7 +11,7 @@ bool is357(long long n)
 	three = five = seven = false;
 
 	string s = to_string(n);
-	for (int i = 0; (size_t) i < s.size(); i++) {
+	for (int i = 0; (size_t)i < s.size(); i++) {
 		if (s[i] == '3') {
 			three = true;
 		} else if (s[i] == '5') {

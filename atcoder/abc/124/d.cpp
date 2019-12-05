@@ -39,7 +39,7 @@ int main()
 
 	int sum = 0;
 
-	for (int i = 0; (size_t) i < nums.size(); i += 2) {
+	for (int i = 0; (size_t)i < nums.size(); i += 2) {
 		int nextLeft = i;
 		int nextRight = min(i + add, (int)nums.size());
 

@@ -10,7 +10,7 @@ int main()
 	int zero, one;
 	zero = one = 0;
 
-	for (int i = 0; (size_t) i < s.size(); i++) {
+	for (int i = 0; (size_t)i < s.size(); i++) {
 		if (s[i] == '0') {
 			zero++;
 		} else {

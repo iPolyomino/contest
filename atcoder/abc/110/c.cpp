@@ -10,7 +10,7 @@ int main()
 	map < char, char >mps;
 	map < char, char >mpt;
 
-	for (int i = 0; (size_t) i < s.size(); i++) {
+	for (int i = 0; (size_t)i < s.size(); i++) {
 		auto its = mps.find(s[i]);
 		auto itt = mpt.find(t[i]);
 		if (its != mps.end() && its->second != t[i]) {

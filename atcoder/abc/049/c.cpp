@@ -13,7 +13,7 @@ int main()
 		reverse(divide[i].begin(), divide[i].end());
 	}
 
-	for (int i = 0; (size_t) i < s.size();) {
+	for (int i = 0; (size_t)i < s.size();) {
 		bool isDivide = false;
 		for (int j = 0; j < 4; j++) {
 			string d = divide[j];

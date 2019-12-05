@@ -10,7 +10,7 @@ int main()
 	int current, maxLength;
 	current = maxLength = 0;
 
-	for (int i = 0; (size_t) i < s.size(); i++) {
+	for (int i = 0; (size_t)i < s.size(); i++) {
 		if (s[i] == 'A' || s[i] == 'C' || s[i] == 'G' || s[i] == 'T') {
 			current++;
 			if (maxLength < current) {

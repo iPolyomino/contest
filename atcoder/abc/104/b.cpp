@@ -11,7 +11,7 @@ int main()
 	bool containsC = false;
 	bool allSmall = true;
 
-	for (int i = 1; (size_t) i < S.size(); i++) {
+	for (int i = 1; (size_t)i < S.size(); i++) {
 		if (S[i] < 'a' || 'z' < S[i]) {
 			if (i != 1 && !containsC && S[i] == 'C'
 			    && i != int (S.size() - 1)) {

@@ -38,7 +38,7 @@ int calc(vector < int >v)
 
 void dfs(vector < int >v)
 {
-	if (v.size() == (size_t) N) {
+	if (v.size() == (size_t)N) {
 		int mp = calc(v);
 		if (mp < ans) {
 			ans = mp;

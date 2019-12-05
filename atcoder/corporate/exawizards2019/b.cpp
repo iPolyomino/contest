@@ -11,7 +11,7 @@ int main()
 
 	int red = 0;
 
-	for (int i = 0; (size_t) i < s.size(); i++) {
+	for (int i = 0; (size_t)i < s.size(); i++) {
 		if (s[i] == 'R') {
 			red++;
 		}

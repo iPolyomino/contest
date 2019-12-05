@@ -16,7 +16,9 @@ int gx, gy;
 int d[MAX_N][MAX_M];
 
 int dx[4] = { 1, 0, -1, 0 }, dy[4] = {
-0, 1, 0, -1};
+
+	0, 1, 0, -1
+};
 
 int bfs()
 {

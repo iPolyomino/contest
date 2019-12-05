@@ -9,7 +9,7 @@ int main()
 	int start0, start1;
 	start0 = start1 = 0;
 	char current = '0';
-	for (int i = 0; (size_t) i < S.size(); i++) {
+	for (int i = 0; (size_t)i < S.size(); i++) {
 		if (S[i] != current) {
 			start0++;
 		}
@@ -21,7 +21,7 @@ int main()
 	}
 
 	current = '1';
-	for (int i = 0; (size_t) i < S.size(); i++) {
+	for (int i = 0; (size_t)i < S.size(); i++) {
 		if (S[i] != current) {
 			start1++;
 		}
