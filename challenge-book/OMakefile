@@ -1,0 +1,16 @@
+CXXFLAGS += -std=gnu++1y
+
+.SUBDIRS: $(glob D, *)
+	.SUBDIRS: $(glob D, *)
+		targs = $(rootname $(glob *.cpp))
+		$(targs): %: %.cpp
+			$(CXX) $(CXXFLAGS) -o $@ $<
+
+		all: $(targs)
+
+		clean:
+			rm -f $(targs)
+
+		.DEFAULT: all
+
+	.DEFAULT: all
