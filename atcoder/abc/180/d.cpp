@@ -4,24 +4,25 @@ using namespace std;
 
 #define ll long long
 
-int main() {
-  ll X, Y, A, B;
-  cin >> X >> Y >> A >> B;
+int main()
+{
+	ll X, Y, A, B;
+	cin >> X >> Y >> A >> B;
 
-  ll strength = X;
-  ll experience = 0;
+	ll strength = X;
+	ll experience = 0;
 
-  while ((double)A * strength <= 2e18 && A * strength < Y &&
-         strength * A < strength + B) {
-    experience++;
-    strength *= A;
-  }
+	while ((double)A * strength <= 2e18 && A * strength < Y &&
+	       strength * A < strength + B) {
+		experience++;
+		strength *= A;
+	}
 
-  if (strength < Y) {
-    experience += (Y - strength - 1) / B;
-  }
+	if (strength < Y) {
+		experience += (Y - strength - 1) / B;
+	}
 
-  cout << experience << endl;
+	cout << experience << endl;
 
-  return 0;
+	return 0;
 }
