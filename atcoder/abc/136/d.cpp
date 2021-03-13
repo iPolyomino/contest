@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	string S;
+
 	cin >> S;
 
 	vector < int >ans(S.size(), 0);

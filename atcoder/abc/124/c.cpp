@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	string S;
+
 	cin >> S;
 	int start0, start1;
 	start0 = start1 = 0;

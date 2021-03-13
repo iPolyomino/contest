@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int N;
+
 	cin >> N;
 
 	int odd = ceil((double)N / 2);

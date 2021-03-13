@@ -14,6 +14,7 @@ bool second_compare(pair < string, int >a, pair < string, int >b)
 int main()
 {
 	int N;
+
 	cin >> N;
 	vector < string > S(N);
 	for (int i = 0; i < N; i++) {
@@ -31,7 +32,7 @@ int main()
 	for (int i = 0; i < N; i++) {
 		freqMax = max(freqMax, freq[S[i]]);
 	}
- for (auto mp:freq) {
+	for (auto mp:freq) {
 		if (mp.second == freqMax) {
 			cout << mp.first << endl;
 		}

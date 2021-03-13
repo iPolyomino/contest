@@ -5,10 +5,11 @@ using namespace std;
 int main()
 {
 	int N, M;
+
 	cin >> N >> M;
 
 	vector < int >rows(N);
-	vector < set < int >>K;
+	vector < set < int > >K;
 
 	for (int i = 0; i < N; i++) {
 		int r;

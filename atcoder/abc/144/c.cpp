@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	ll N;
+
 	cin >> N;
 
 	ll diff = abs(1 - N);
@@ -21,8 +22,8 @@ int main()
 		}
 	}
 
-	ll xDiff = max((ll) 0, x - 1);
-	ll yDiff = max((ll) 0, y - 1);
+	ll xDiff = max((ll)0, x - 1);
+	ll yDiff = max((ll)0, y - 1);
 	cout << xDiff + yDiff << endl;
 
 	return 0;

@@ -5,6 +5,7 @@ using namespace std;
 int S(int n)
 {
 	int sum = 0;
+
 	while (n > 0) {
 		sum += n % 10;
 		n /= 10;
@@ -15,6 +16,7 @@ int S(int n)
 int main()
 {
 	int A, B;
+
 	cin >> A >> B;
 	if (S(A) >= S(B)) {
 		cout << S(A) << endl;

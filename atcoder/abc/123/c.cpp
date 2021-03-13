@@ -8,6 +8,7 @@ int main()
 {
 	ll N;
 	vector < ll > A(5);
+
 	cin >> N;
 	for (int i = 0; i < 5; i++) {
 		cin >> A[i];

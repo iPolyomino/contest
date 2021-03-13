@@ -20,6 +20,7 @@ long long axor(long long a)
 int main()
 {
 	long long A, B;
+
 	cin >> A >> B;
 
 	cout << (axor(B) ^ axor(A - 1)) << endl;

@@ -7,13 +7,14 @@ using namespace std;
 int main()
 {
 	int N;
+
 	cin >> N;
 	vector < ll > A(N), B(N);
 	for (int i = 0; i < N; i++) {
 		cin >> A[i] >> B[i];
 	}
 
-	vector < pair < ll, ll >> BA(N);
+	vector < pair < ll, ll > > BA(N);
 	for (int i = 0; i < N; i++) {
 		BA[i] = make_pair(B[i], A[i]);
 	}

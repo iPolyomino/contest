@@ -6,6 +6,7 @@ int main()
 {
 	char input[N + 1];
 	size_t i, j;
+
 	scanf("%s", input);
 
 	for (i = 0; i < strlen(input); i++) {

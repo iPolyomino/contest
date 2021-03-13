@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	ll A, B;
+
 	cin >> A >> B;
 	cout << A * B / __gcd(A, B) << endl;
 	return 0;

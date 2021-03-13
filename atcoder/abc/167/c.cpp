@@ -7,10 +7,11 @@ using namespace std;
 int main()
 {
 	ll N, M, X;
+
 	cin >> N >> M >> X;
 
 	vector < ll > C(N);
-	vector < vector < ll >> A(N, vector < ll > (M));
+	vector < vector < ll > > A(N, vector < ll > (M));
 	for (int i = 0; i < N; i++) {
 		cin >> C[i];
 		for (int j = 0; j < M; j++) {

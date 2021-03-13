@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	int X, Y, Z, K;
+
 	cin >> X >> Y >> Z >> K;
 
 	vector < ll > A(X);

@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	ll A, B, K;
+
 	cin >> A >> B >> K;
 
 	A -= K;
@@ -14,7 +15,7 @@ int main()
 		B += A;
 	}
 
-	cout << max((ll) 0, A) << " " << max((ll) 0, B) << endl;
+	cout << max((ll)0, A) << " " << max((ll)0, B) << endl;
 
 	return 0;
 }

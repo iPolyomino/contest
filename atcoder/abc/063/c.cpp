@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
 	int n;
+
 	cin >> n;
 	int score[N];
 	int total = 0;

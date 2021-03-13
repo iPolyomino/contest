@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	ll N, M, P;
+
 	cin >> N >> M >> P;
 
 	ll n = N;

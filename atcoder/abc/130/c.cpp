@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	double W, H, x, y;
+
 	cin >> W >> H >> x >> y;
 
 	int multiple = 0;

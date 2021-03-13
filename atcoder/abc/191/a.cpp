@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	double V, T, S, D;
+
 	cin >> V >> T >> S >> D;
 
 	double time = D / V;

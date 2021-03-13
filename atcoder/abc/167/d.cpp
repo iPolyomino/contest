@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	ll N, K;
+
 	cin >> N >> K;
 	vector < ll > A(N + 1);
 	for (ll i = 1; i <= N; i++) {

@@ -6,12 +6,13 @@ using namespace std;
 
 bool isPurchase(ll A, ll B, ll X, ll N)
 {
-	return A * N + B * (ll) to_string(N).size() <= X;
+	return A * N + B * (ll)to_string(N).size() <= X;
 }
 
 int main()
 {
 	ll A, B, X;
+
 	cin >> A >> B >> X;
 
 	if (A + B > X) {

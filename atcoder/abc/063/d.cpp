@@ -10,6 +10,7 @@ vector < ll > h;
 bool check(ll x)
 {
 	ll need = 0;
+
 	for (ll i = 0; i < N; i++) {
 		ll tmp = h[i] - B * x;
 		if (tmp <= 0) {

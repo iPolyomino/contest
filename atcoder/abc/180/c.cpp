@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	ll N;
+
 	cin >> N;
 
 	set < ll > ans;
@@ -18,7 +19,7 @@ int main()
 		}
 	}
 
- for (auto a:ans) {
+	for (auto a:ans) {
 		cout << a << endl;
 	}
 

@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	char b;
+
 	cin >> b;
 
 	if (b == 'A')

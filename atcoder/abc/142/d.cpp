@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	ll A, B;
+
 	cin >> A >> B;
 	ll gcd = __gcd(A, B);
 

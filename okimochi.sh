@@ -1,4 +1,4 @@
 #!/bin/zsh
 
-indent -linux */**/*.cpp
+uncrustify -l CPP --no-backup */**/*.cpp
 omake clean

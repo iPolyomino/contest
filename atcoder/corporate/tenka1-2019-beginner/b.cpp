@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int N;
+
 	cin >> N;
 	vector < char >S(N);
 	for (int i = 0; i < N; i++) {
@@ -19,7 +20,7 @@ int main()
 		}
 	}
 
- for (auto ss:S) {
+	for (auto ss:S) {
 		cout << ss;
 	}
 

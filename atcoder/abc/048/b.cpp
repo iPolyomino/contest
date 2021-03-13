@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	ll a, b, x;
+
 	cin >> a >> b >> x;
 
 	ll ans = b / x - a / x;

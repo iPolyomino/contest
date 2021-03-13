@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	string S;
+
 	cin >> S;
 
 	bool startA = S[0] == 'A';

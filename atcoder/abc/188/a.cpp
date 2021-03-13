@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int X, Y;
+
 	cin >> X >> Y;
 
 	if (min(X, Y) + 3 > max(X, Y)) {

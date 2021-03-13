@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int r;
+
 	cin >> r;
 
 	if (r < 1200) {

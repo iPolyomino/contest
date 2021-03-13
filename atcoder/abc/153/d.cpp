@@ -15,6 +15,7 @@ ll count(ll n)
 int main()
 {
 	ll N;
+
 	cin >> N;
 	cout << count(N) << endl;
 	return 0;

@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int A, B, C, K;
+
 	cin >> A >> B >> C >> K;
 
 	int ans = 0;

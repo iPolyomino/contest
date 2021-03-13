@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	string S;
+
 	cin >> S;
 
 	int front = stoi(S.substr(0, 2));

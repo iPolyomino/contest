@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	ll A, B, N;
+
 	cin >> A >> B >> N;
 
 	ll x = min(B - 1, N);

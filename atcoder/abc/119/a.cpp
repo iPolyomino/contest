@@ -6,6 +6,7 @@ int main()
 {
 
 	string S;
+
 	cin >> S;
 
 	int year = atoi(S.substr(0, 4).c_str());

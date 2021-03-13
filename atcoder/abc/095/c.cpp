@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int A, B, C, X, Y;
+
 	cin >> A >> B >> C >> X >> Y;
 
 	int PizaA = X, PizaB = Y, PizaC = 0;

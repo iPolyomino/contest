@@ -11,6 +11,7 @@ int calc(vector < int >v)
 {
 	int mp = 0;
 	pair < int, int >p[4];
+
 	for (int i = 0; i < 4; i++) {
 		// count and length
 		p[i] = make_pair(0, 0);

@@ -17,6 +17,7 @@ bool contain7(string num)
 int main()
 {
 	ll N;
+
 	cin >> N;
 
 	int ans = 0;

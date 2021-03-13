@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int N;
+
 	cin >> N;
 	vector < double >x(N), y(N);
 	for (int i = 0; i < N; i++) {
@@ -16,9 +17,9 @@ int main()
 			for (int k = 0; k < N; k++) {
 				if (i != j && j != k && i != k) {
 					double tiltAB =
-					    (y[i] - y[j]) / (x[i] - x[j]);
+						(y[i] - y[j]) / (x[i] - x[j]);
 					double tiltAC =
-					    (y[i] - y[k]) / (x[i] - x[k]);
+						(y[i] - y[k]) / (x[i] - x[k]);
 					if (tiltAB == tiltAC) {
 						cout << "Yes" << endl;
 						return 0;

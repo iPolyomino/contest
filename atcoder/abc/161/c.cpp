@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	ll N, K;
+
 	cin >> N >> K;
 
 	ll nMod = N % K;

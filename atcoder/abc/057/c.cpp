@@ -7,6 +7,7 @@ using namespace std;
 ll digits(ll n)
 {
 	int d = 1;
+
 	while (n >= 10) {
 		n /= 10;
 		d++;
@@ -17,6 +18,7 @@ ll digits(ll n)
 int main()
 {
 	ll N;
+
 	cin >> N;
 
 	ll ans = digits(N);

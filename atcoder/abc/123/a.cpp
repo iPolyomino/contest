@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	vector < int >A(5);
+
 	for (int i = 0; i < 5; i++) {
 		cin >> A[i];
 	}

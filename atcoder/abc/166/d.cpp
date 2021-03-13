@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	ll X;
+
 	cin >> X;
 	for (ll i = -120; i < 120; i++) {
 		for (ll j = -120; j < 120; j++) {

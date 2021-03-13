@@ -5,6 +5,7 @@ using namespace std;
 int sumOfNum(int number)
 {
 	int total = 0;
+
 	while (number > 0) {
 		total += number % 10;
 		number /= 10;
@@ -15,6 +16,7 @@ int sumOfNum(int number)
 int main()
 {
 	int n, a, b;
+
 	cin >> n >> a >> b;
 
 	int result = 0;

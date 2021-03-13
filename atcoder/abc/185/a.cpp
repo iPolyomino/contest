@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int A[4];
+
 	for (int i = 0; i < 4; i++) {
 		cin >> A[i];
 	}

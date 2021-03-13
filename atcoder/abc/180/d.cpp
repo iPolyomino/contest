@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	ll X, Y, A, B;
+
 	cin >> X >> Y >> A >> B;
 
 	ll strength = X;

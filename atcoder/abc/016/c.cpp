@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int N, M;
+
 	cin >> N >> M;
 	vector < int >A(M), B(M);
 	for (int i = 0; i < M; i++) {
@@ -13,7 +14,7 @@ int main()
 		B[i]--;
 	}
 
-	vector < set < int >>friends(N);
+	vector < set < int > >friends(N);
 	for (int i = 0; i < M; i++) {
 		friends[A[i]].insert(B[i]);
 		friends[B[i]].insert(A[i]);

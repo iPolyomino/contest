@@ -5,12 +5,13 @@ using namespace std;
 int main()
 {
 	int N;
+
 	cin >> N;
 	vector < int >A(N);
-	vector < vector < pair < int, int >>>xy;
+	vector < vector < pair < int, int > > >xy;
 	for (int i = 0; i < N; i++) {
 		cin >> A[i];
-		vector < pair < int, int >>testimony;
+		vector < pair < int, int > >testimony;
 		for (int j = 0; j < A[i]; j++) {
 			int x, y;
 			cin >> x >> y;

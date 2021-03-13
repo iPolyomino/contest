@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	long double A, B;
+
 	cin >> A >> B;
 
 	long double BB = B * 100.0;

@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	string a, b;
+
 	cin >> a >> b;
 
 	int n = atoi((a + b).c_str());

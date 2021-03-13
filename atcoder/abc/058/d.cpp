@@ -8,6 +8,7 @@ using namespace std;
 int main()
 {
 	ll n, m;
+
 	cin >> n >> m;
 
 	vector < ll > x(n), y(m);

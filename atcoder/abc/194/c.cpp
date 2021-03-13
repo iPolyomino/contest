@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	int N;
+
 	cin >> N;
 
 	vector < ll > A(N);
@@ -20,8 +21,8 @@ int main()
 	}
 
 	ll ans = 0;
- for (auto & i:cnt) {
- for (auto & j:cnt) {
+	for (auto & i:cnt) {
+		for (auto & j:cnt) {
 			ans += pow(i.first - j.first, 2) * i.second * j.second;
 		}
 	}

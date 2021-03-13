@@ -8,6 +8,7 @@ P f(int x)
 {
 	int a = x % 10;
 	int b = 0;
+
 	while (x) {
 		b = x;
 		x /= 10;
@@ -18,6 +19,7 @@ P f(int x)
 int main()
 {
 	int N;
+
 	cin >> N;
 	map < P, int >freq;
 	for (int i = 1; i <= N; i++) {

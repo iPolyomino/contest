@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int N, M;
+
 	cin >> N >> M;
 	vector < int >P(M);
 	vector < int >Y(M);
@@ -24,8 +25,8 @@ int main()
 	for (int i = 0; i < M; i++) {
 		cout << setfill('0') << setw(6) << P[i];
 		cout << setfill('0') << setw(6) <<
-		    lower_bound(v[P[i]].begin(), v[P[i]].end(), Y[i]) -
-		    v[P[i]].begin() + 1 << endl;
+			lower_bound(v[P[i]].begin(), v[P[i]].end(), Y[i]) -
+			v[P[i]].begin() + 1 << endl;
 	}
 
 	return 0;

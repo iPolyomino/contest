@@ -12,6 +12,7 @@ double tempDiff(double h)
 int main()
 {
 	double N;
+
 	cin >> N;
 	cin >> T >> A;
 	vector < double >H(N);

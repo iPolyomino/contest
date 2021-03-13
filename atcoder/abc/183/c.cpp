@@ -7,9 +7,10 @@ using namespace std;
 int main()
 {
 	ll N, K;
+
 	cin >> N >> K;
 
-	vector < vector < ll >> T(N, vector < ll > (N));
+	vector < vector < ll > > T(N, vector < ll > (N));
 
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < N; j++) {

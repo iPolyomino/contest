@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	double N, K;
+
 	cin >> N >> K;
 
 	double ans = 0;

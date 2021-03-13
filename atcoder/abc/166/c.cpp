@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	ll N, M;
+
 	cin >> N >> M;
 	vector < int >H(N);
 	for (int i = 0; i < N; i++) {
@@ -19,7 +20,7 @@ int main()
 		B[i]--;
 	}
 
-	vector < set < int >>connect(N);
+	vector < set < int > >connect(N);
 	for (int i = 0; i < M; i++) {
 		connect[A[i]].insert(B[i]);
 		connect[B[i]].insert(A[i]);
@@ -28,7 +29,7 @@ int main()
 	int ans = 0;
 	for (int i = 0; i < N; i++) {
 		int highest = 0;
- for (auto c:	connect[i]) {
+		for (auto c:   connect[i]) {
 			highest = max(highest, H[c]);
 		}
 		if (highest < H[i]) {

@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	ll N, A, B;
+
 	cin >> N >> A >> B;
 	ll div = N / (A + B);
 	ll mod = N % (A + B);

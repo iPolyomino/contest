@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int N, K;
+
 	cin >> N >> K;
 
 	if (N % K == 0) {

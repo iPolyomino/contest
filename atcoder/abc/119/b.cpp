@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	int N;
+
 	cin >> N;
 
 	double x[N_MAX];

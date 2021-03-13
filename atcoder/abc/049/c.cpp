@@ -7,6 +7,7 @@ int main()
 	string divide[4] = { "dream", "dreamer", "erase", "eraser" };
 
 	string s;
+
 	cin >> s;
 	reverse(s.begin(), s.end());
 	for (int i = 0; i < 4; i++) {

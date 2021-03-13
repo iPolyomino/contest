@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int X;
+
 	cin >> X;
 	int fiveHundredYen = X / 500;
 	int ans = fiveHundredYen * 1000;

@@ -11,6 +11,7 @@ int dp[MAX_N][4][4][4];
 int main()
 {
 	int N;
+
 	cin >> N;
 
 	// A -> 0
@@ -45,7 +46,7 @@ int main()
 							continue;
 
 						dp[len + 1][a][i][j] +=
-						    dp[len][i][j][k];
+							dp[len][i][j][k];
 						dp[len + 1][a][i][j] %= MOD;
 					}
 				}

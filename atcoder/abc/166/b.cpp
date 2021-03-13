@@ -5,10 +5,11 @@ using namespace std;
 int main()
 {
 	int N, K;
+
 	cin >> N >> K;
 
 	vector < int >d(K);
-	vector < vector < int >>A(K);
+	vector < vector < int > >A(K);
 	for (int i = 0; i < K; i++) {
 		cin >> d[i];
 		vector < int >tmp(d[i]);
@@ -34,7 +35,7 @@ int main()
 	set < int >ans;
 	set_difference(st.begin(), st.end(),
 		       al.begin(), al.end(), inserter(ans, ans.end())
-	    );
+		       );
 
 	cout << ans.size() << endl;
 

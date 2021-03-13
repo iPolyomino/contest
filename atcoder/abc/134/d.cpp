@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int N;
+
 	cin >> N;
 	vector < int >a(N + 1), boxes(N + 1, 0);
 	for (int i = 1; i <= N; i++) {
@@ -26,7 +27,7 @@ int main()
 	}
 
 	cout << ans.size() << endl;
- for (auto i:ans) {
+	for (auto i:ans) {
 		cout << i << " ";
 	}
 	if (ans.size() != 0) {

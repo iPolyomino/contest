@@ -9,6 +9,7 @@ const ll MOD = 1e9 + 7;
 int main()
 {
 	int N;
+
 	cin >> N;
 	vector < ll > A(N);
 	for (int i = 0; i < N; i++) {

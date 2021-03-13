@@ -8,6 +8,7 @@ int n;
 bool is357(long long n)
 {
 	bool three, five, seven;
+
 	three = five = seven = false;
 
 	string s = to_string(n);

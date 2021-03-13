@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	double a, b, x;
+
 	cin >> a >> b >> x;
 	double full = a * a * b;
 	double half = full / 2.0;

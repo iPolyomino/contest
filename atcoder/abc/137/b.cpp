@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int K, X;
+
 	cin >> K >> X;
 
 	int start = X - K + 1;

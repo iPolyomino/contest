@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	int N, M;
+
 	cin >> N >> M;
 
 	vector < ll > A(N);
@@ -19,7 +20,7 @@ int main()
 		cin >> B[i] >> C[i];
 	}
 
-	vector < pair < ll, ll >> CB(M);
+	vector < pair < ll, ll > > CB(M);
 	for (int i = 0; i < M; i++) {
 		CB[i] = make_pair(C[i], B[i]);
 	}

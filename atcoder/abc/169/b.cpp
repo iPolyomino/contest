@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	ll N;
+
 	cin >> N;
 
 	vector < ll > A(N);
@@ -22,7 +23,7 @@ int main()
 			cout << 0 << endl;
 			return 0;
 		}
-		if (A[i] <= (ll) 1e18 / prod) {
+		if (A[i] <= (ll)1e18 / prod) {
 			prod *= A[i];
 		} else {
 			cout << -1 << endl;

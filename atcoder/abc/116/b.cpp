@@ -13,6 +13,7 @@ int f(int n)
 int main()
 {
 	int s;
+
 	cin >> s;
 
 	set < int >logset;

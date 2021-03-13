@@ -5,8 +5,9 @@ using namespace std;
 int main()
 {
 	int N;
+
 	cin >> N;
-	vector < pair < int, int >>D(N);
+	vector < pair < int, int > >D(N);
 	for (int i = 0; i < N; i++) {
 		int a, b;
 		cin >> a >> b;

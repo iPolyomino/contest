@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	ll X;
+
 	cin >> X;
 
 	ll year = 0;

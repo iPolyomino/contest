@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int a, b;
+
 	cin >> a >> b;
 	int mi = min(a, b);
 	int ma = max(a, b);

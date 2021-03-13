@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	int N;
+
 	cin >> N;
 
 	vector < ll > x(N), y(N), h(N);
@@ -20,8 +21,8 @@ int main()
 			for (int k = 0; k < N; k++) {
 				if (h[k] != 0) {
 					height =
-					    h[k] + abs(x[k] - i) + abs(y[k] -
-								       j);
+						h[k] + abs(x[k] - i) + abs(y[k] -
+									   j);
 					break;
 				}
 			}
@@ -29,8 +30,8 @@ int main()
 
 			for (int k = 0; k < N; k++) {
 				ll hh =
-				    max(height - abs(x[k] - i) - abs(y[k] - j),
-					0LL);
+					max(height - abs(x[k] - i) - abs(y[k] - j),
+					    0LL);
 				if (hh != h[k]) {
 					isValid = false;
 					break;

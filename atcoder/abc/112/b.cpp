@@ -5,9 +5,10 @@ using namespace std;
 int main()
 {
 	int N, T;
+
 	cin >> N >> T;
 
-	vector < pair < int, int >>v;
+	vector < pair < int, int > >v;
 	for (int i = 0; i < N; i++) {
 		int c, t;
 		cin >> c >> t;
@@ -16,7 +17,7 @@ int main()
 
 	sort(v.begin(), v.end());
 
- for (auto vc:v) {
+	for (auto vc:v) {
 		if (vc.second <= T) {
 			cout << vc.first << endl;
 			return 0;

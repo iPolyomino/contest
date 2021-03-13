@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int X, A;
+
 	cin >> X >> A;
 
 	if (X < A) {

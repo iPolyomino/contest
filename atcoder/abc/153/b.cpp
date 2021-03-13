@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int H, N;
+
 	cin >> H >> N;
 	vector < int >A(N);
 	for (int i = 0; i < N; i++) {

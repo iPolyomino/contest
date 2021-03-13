@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	int K;
+
 	cin >> K;
 
 	ll ans = 0;

@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	string O, E;
+
 	cin >> O >> E;
 
 	for (size_t i = 0; i < E.size(); i++) {

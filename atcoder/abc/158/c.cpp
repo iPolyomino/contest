@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	double A, B;
+
 	cin >> A >> B;
 	double aa = ceil(A / 0.08);
 	double bb = ceil(B / 0.1);

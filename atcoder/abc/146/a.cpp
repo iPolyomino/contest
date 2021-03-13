@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	string S;
+
 	cin >> S;
 	string week[] = { "SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT" };
 

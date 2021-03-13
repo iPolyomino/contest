@@ -12,6 +12,7 @@ int dj[4] = { 0, 1, 0, -1 };
 int main()
 {
 	int H, W;
+
 	cin >> H >> W;
 	vector < string > S(H);
 	for (int i = 0; i < H; i++) {
@@ -24,7 +25,7 @@ int main()
 		for (int sj = 0; sj < W; sj++) {
 			if (S[si][sj] == '#')
 				continue;
-			vector < vector < int >>dist(H, vector < int >(W, INF));
+			vector < vector < int > >dist(H, vector < int >(W, INF));
 			dist[si][sj] = 0;
 
 			queue < P > q;
@@ -39,7 +40,7 @@ int main()
 					    && dy < H && S[dy][dx] != '#'
 					    && dist[dy][dx] == INF) {
 						dist[dy][dx] =
-						    dist[p.first][p.second] + 1;
+							dist[p.first][p.second] + 1;
 						q.push(P(dy, dx));
 					}
 				}

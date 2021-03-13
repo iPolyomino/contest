@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	double sx, sy, gx, gy;
+
 	cin >> sx >> sy >> gx >> gy;
 
 	double xdiff = gx - sx;

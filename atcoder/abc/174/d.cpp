@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int N;
+
 	cin >> N;
 	string c;
 	cin >> c;

@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	double A, B, H, M;
+
 	cin >> A >> B >> H >> M;
 
 	double shortDegree = 30.0 * H + 0.5 * M;

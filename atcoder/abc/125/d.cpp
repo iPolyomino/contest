@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	int N;
+
 	cin >> N;
 	vector < ll > A(N);
 	for (int i = 0; i < N; i++) {
@@ -24,7 +25,7 @@ int main()
 	}
 
 	if (minusCount % 2 == 0) {
-		cout << accumulate(A.begin(), A.end(), (ll) 0) << endl;
+		cout << accumulate(A.begin(), A.end(), (ll)0) << endl;
 		return 0;
 	}
 
@@ -35,7 +36,7 @@ int main()
 		}
 	}
 
-	cout << accumulate(A.begin(), A.end(), (ll) 0) - zeroDiff * 2 << endl;
+	cout << accumulate(A.begin(), A.end(), (ll)0) - zeroDiff * 2 << endl;
 
 	return 0;
 }

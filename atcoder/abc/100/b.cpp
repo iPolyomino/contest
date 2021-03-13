@@ -5,6 +5,7 @@ using namespace std;
 int div(int n)
 {
 	int cnt = 0;
+
 	while (n % 100 == 0) {
 		n /= 100;
 		cnt++;
@@ -15,6 +16,7 @@ int div(int n)
 int main()
 {
 	int D, N;
+
 	cin >> D >> N;
 
 	int nb = 0;

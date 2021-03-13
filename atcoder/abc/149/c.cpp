@@ -7,7 +7,7 @@ vector < int >prime_number;
 
 bool isPrime(int n)
 {
- for (auto p:prime_number) {
+	for (auto p:prime_number) {
 		if (n % p == 0) {
 			return false;
 		}
@@ -18,6 +18,7 @@ bool isPrime(int n)
 int main()
 {
 	int x;
+
 	cin >> x;
 
 	int i = 2;

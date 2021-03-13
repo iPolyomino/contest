@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	int N, K, Q;
+
 	cin >> N >> K >> Q;
 	vector < int >A(Q);
 	for (int i = 0; i < Q; i++) {

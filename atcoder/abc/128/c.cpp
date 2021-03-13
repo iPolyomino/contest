@@ -5,10 +5,11 @@ using namespace std;
 int main()
 {
 	int N, M;
+
 	cin >> N >> M;
 
 	vector < int >k(M);
-	vector < vector < int >>s(M);
+	vector < vector < int > >s(M);
 	for (int i = 0; i < M; i++) {
 		cin >> k[i];
 		s[i] = vector < int >(k[i]);

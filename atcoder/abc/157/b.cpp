@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	int A[CARD_SIZE][CARD_SIZE];
+
 	for (int i = 0; i < CARD_SIZE; i++) {
 		for (int j = 0; j < CARD_SIZE; j++) {
 			cin >> A[i][j];
@@ -25,7 +26,7 @@ int main()
 	for (int i = 0; i < CARD_SIZE; i++) {
 		for (int j = 0; j < CARD_SIZE; j++) {
 			isOpen[i][j] =
-			    binary_search(b.begin(), b.end(), A[i][j]);
+				binary_search(b.begin(), b.end(), A[i][j]);
 		}
 	}
 

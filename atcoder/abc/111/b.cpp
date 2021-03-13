@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	int N;
+
 	cin >> N;
 
 	for (int i = N; i <= MAX; i++) {

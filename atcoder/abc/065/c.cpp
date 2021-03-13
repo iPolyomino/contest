@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	int n, m;
+
 	cin >> n >> m;
 
 	if (abs(n - m) > 1) {

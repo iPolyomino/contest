@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	ll a, b, c;
+
 	cin >> a >> b >> c;
 
 	if (a % 2 == 0 || b % 2 == 0 || c % 2 == 0) {
