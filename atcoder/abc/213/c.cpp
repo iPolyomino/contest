@@ -17,20 +17,14 @@ int main()
 	}
 
 
-	vector<int> ys;
-	for (int i = 0; i < N; i++) {
-		ys.push_back(A[i]);
-	}
+	vector<int> ys(A);
 	sort(all(ys));
 	ys.erase(unique(all(ys)), ys.end());
 	for (int i = 0; i < N; i++) {
 		A[i] = lower_bound(all(ys), A[i]) - ys.begin();
 	}
 
-	vector<int> xs;
-	for (int i = 0; i < N; i++) {
-		xs.push_back(B[i]);
-	}
+	vector<int> xs(B);
 	sort(all(xs));
 	xs.erase(unique(all(xs)), xs.end());
 	for (int i = 0; i < N; i++) {
