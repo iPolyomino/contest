@@ -8,11 +8,13 @@ int main()
 
 	cin >> D >> G;
 	vector < int >p(D), c(D);
+
 	for (int i = 0; i < D; i++) {
 		cin >> p[i] >> c[i];
 	}
 
 	int ans = INT_MAX;
+
 	for (int bits = 0; bits < (1 << D); bits++) {
 		int score = 0;
 		int num = 0;

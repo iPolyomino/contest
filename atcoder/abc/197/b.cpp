@@ -12,6 +12,7 @@ int main()
 	Y--;
 
 	vector<string> S(H);
+
 	for (int i = 0; i < H; i++) {
 		cin >> S[i];
 	}

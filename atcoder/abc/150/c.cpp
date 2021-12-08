@@ -8,16 +8,19 @@ int main()
 
 	cin >> N;
 	vector < int >P(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> P[i];
 	}
 
 	vector < int >Q(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> Q[i];
 	}
 
 	vector < int >nums(N);
+
 	for (int i = 0; i < N; i++) {
 		nums[i] = i + 1;
 	}

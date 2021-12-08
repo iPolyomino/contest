@@ -8,6 +8,7 @@ int main()
 
 	cin >> N;
 	vector < int >v(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> v[i];
 	}
@@ -15,6 +16,7 @@ int main()
 	sort(v.begin(), v.end());
 
 	double ans = v[0];
+
 	for (int i = 1; i < N; i++) {
 		ans = (ans + (double)v[i]) / 2.0;
 	}

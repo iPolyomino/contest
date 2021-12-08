@@ -9,6 +9,7 @@ int main()
 	cin >> N >> M;
 	vector < int >p(M);
 	vector < string > S(M);
+
 	for (int i = 0; i < M; i++) {
 		cin >> p[i] >> S[i];
 		p[i]--;
@@ -29,6 +30,7 @@ int main()
 
 	int correct = 0;
 	int penalty = 0;
+
 	for (int i = 0; i < N; i++) {
 		if (isAC[i] == 1) {
 			correct++;

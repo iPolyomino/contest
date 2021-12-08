@@ -9,6 +9,7 @@ int main()
 	cin >> H >> W;
 
 	vector < vector < char > >a(H, vector < char >(W));
+
 	for (int i = 0; i < H; i++) {
 		for (int j = 0; j < W; j++) {
 			cin >> a[i][j];

@@ -9,6 +9,7 @@ int main()
 	cin >> N;
 
 	vector < pair < pair < string, int >, int > >sp(N);
+
 	for (int i = 0; i < N; i++) {
 		string s;
 		int p;

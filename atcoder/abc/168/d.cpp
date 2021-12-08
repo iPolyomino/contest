@@ -8,6 +8,7 @@ int main()
 
 	cin >> N >> M;
 	vector < vector < int > >path(N + 1);
+
 	for (int i = 1; i <= M; i++) {
 		int a, b;
 		cin >> a >> b;
@@ -17,9 +18,11 @@ int main()
 
 	vector < int >dist(N + 1, INT_MAX);
 	vector < int >prev(N + 1, INT_MAX);
+
 	dist[1] = 0;
 
 	queue < int >que;
+
 	que.push(1);
 
 	while (!que.empty()) {

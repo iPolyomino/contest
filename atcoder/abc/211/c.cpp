@@ -12,6 +12,7 @@ int main()
 	int n = S.size();
 
 	vector<vector<int> > dp(n + 1, vector<int>(9));
+
 	for (int i = 0; i < n + 1; i++) dp[i][0] = 1;
 
 	const int mod = 1000000007;

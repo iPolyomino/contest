@@ -11,6 +11,7 @@ int main()
 	{ { "AC", 0 }, { "WA", 0 }, { "TLE", 0 }, { "RE", 0 } };
 
 	vector < string > S(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> S[i];
 	}

@@ -13,6 +13,7 @@ int main()
 	X = abs(X);
 
 	ll move = min(X / D, K);
+
 	K -= move;
 	X -= D * move;
 

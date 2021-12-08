@@ -8,12 +8,15 @@ int main()
 
 	cin >> n;
 	int a, b;
+
 	cin >> a >> b;
 
 	int x, y, z;
+
 	x = y = z = 0;
 
 	int p[110];
+
 	for (int i = 0; i < n; i++) {
 		cin >> p[i];
 		if (p[i] <= a) {

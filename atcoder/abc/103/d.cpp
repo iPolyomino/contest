@@ -8,6 +8,7 @@ int main()
 
 	cin >> N >> M;
 	vector < pair < int, int > >ab(M);
+
 	for (int i = 0; i < M; i++) {
 		int a, b;
 		cin >> a >> b;
@@ -17,6 +18,7 @@ int main()
 	sort(ab.begin(), ab.end(), greater < pair < int, int > >());
 
 	int last, ans;
+
 	last = -1;
 	ans = 0;
 

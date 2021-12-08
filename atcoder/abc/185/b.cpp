@@ -11,6 +11,7 @@ int main()
 	cin >> N >> M >> T;
 
 	vector < ll > A(M), B(M);
+
 	for (int i = 0; i < M; i++) {
 		cin >> A[i] >> B[i];
 	}

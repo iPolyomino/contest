@@ -11,6 +11,7 @@ int main()
 	cin >> K;
 
 	vector < ll > a(K);
+
 	a[0] = 7 % K;
 	for (int i = 1; i < K; i++) {
 		a[i] = (a[i - 1] * 10 + 7) % K;

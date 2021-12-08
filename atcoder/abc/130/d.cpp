@@ -10,6 +10,7 @@ int main()
 
 	cin >> N >> K;
 	vector < ll > a(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> a[i];
 	}
@@ -17,6 +18,7 @@ int main()
 	long long ans = 0;
 
 	int l, r;
+
 	l = r = 0;
 
 	ll sum = a[0];

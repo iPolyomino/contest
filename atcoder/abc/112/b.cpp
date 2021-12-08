@@ -9,6 +9,7 @@ int main()
 	cin >> N >> T;
 
 	vector < pair < int, int > >v;
+
 	for (int i = 0; i < N; i++) {
 		int c, t;
 		cin >> c >> t;

@@ -13,6 +13,7 @@ int main()
 	cin >> N;
 
 	vector<int>C(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> C[i];
 	}
@@ -20,6 +21,7 @@ int main()
 	sort(C.begin(), C.end());
 
 	ll ans = 1;
+
 	for (int i = 0; i < N; i++) {
 		ans *= max(0, C[i] - i);
 		ans %= MOD;

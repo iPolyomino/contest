@@ -12,6 +12,7 @@ int main()
 	cin >> H >> W;
 
 	vector<vector<char> > S(H, vector<char>(W));
+
 	for (int i = 0; i < H; i++) {
 		for (int j = 0; j < W; j++) {
 			cin >> S[i][j];
@@ -19,6 +20,7 @@ int main()
 	}
 
 	int ans = 0;
+
 	for (int i = 0; i < H - 1; i++) {
 		for (int j = 0; j < W - 1; j++) {
 			int black = 0;

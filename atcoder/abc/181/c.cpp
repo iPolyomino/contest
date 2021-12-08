@@ -8,6 +8,7 @@ int main()
 
 	cin >> N;
 	vector < double >x(N), y(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> x[i] >> y[i];
 	}

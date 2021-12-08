@@ -9,6 +9,7 @@ int main()
 	cin >> W >> H >> x >> y;
 
 	int multiple = 0;
+
 	if (2 * x == W && 2 * y == H) {
 		multiple = 1;
 	}

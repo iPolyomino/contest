@@ -8,6 +8,7 @@ int main()
 
 	cin >> A >> B;
 	int ans = 0;
+
 	while (1 + (A - 1) * ans < B) {
 		ans++;
 	}

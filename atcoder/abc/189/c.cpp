@@ -8,11 +8,13 @@ int main()
 
 	cin >> N;
 	vector < int >A(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> A[i];
 	}
 
 	int ans = 0;
+
 	for (int l = 0; l < N; l++) {
 		int mi = A[l];
 		for (int r = l; r < N; r++) {

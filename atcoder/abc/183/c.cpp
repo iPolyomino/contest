@@ -19,6 +19,7 @@ int main()
 	}
 
 	vector < ll > num(N);
+
 	for (int i = 0; i < N; i++) {
 		num[i] = i;
 	}

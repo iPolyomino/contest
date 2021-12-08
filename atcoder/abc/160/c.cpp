@@ -10,11 +10,13 @@ int main()
 
 	cin >> K >> N;
 	vector < ll > A(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> A[i];
 	}
 
 	vector < ll > dist(N);
+
 	for (int i = 0; i < N - 1; i++) {
 		dist[i] = A[i + 1] - A[i];
 	}

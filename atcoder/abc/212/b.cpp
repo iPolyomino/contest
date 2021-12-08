@@ -14,6 +14,7 @@ int main()
 
 	bool same = true;
 	bool step = true;
+
 	for (int i = 0; i < 3; i++) {
 		if (X[i] != X[i + 1]) same = false;
 		if (((X[i] + 1) % 10) != (X[i + 1] % 10)) step = false;

@@ -8,6 +8,7 @@ int main()
 
 	cin >> N;
 	vector<pair<int, int> > A(N);
+
 	for (int i = 0; i < N; i++) {
 		int ai;
 		cin >> ai;

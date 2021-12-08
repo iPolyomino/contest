@@ -18,6 +18,7 @@ int main()
 
 
 	vector<ll> sa(a.size());
+
 	copy(a.begin(), a.end(), sa.begin());
 	sort(sa.begin(), sa.end());
 

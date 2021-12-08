@@ -8,10 +8,12 @@ int main()
 
 	cin >> N;
 	string S;
+
 	cin >> S;
 
 	int ans = 1;
 	char current = S[0];
+
 	for (int i = 1; i < N; i++) {
 		if (current != S[i]) {
 			ans++;

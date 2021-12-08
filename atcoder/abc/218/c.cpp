@@ -9,6 +9,7 @@ int main()
 	cin >> N;
 
 	vector<pair<int, int> > S;
+
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < N; j++) {
 			char a;
@@ -20,6 +21,7 @@ int main()
 	}
 
 	vector<pair<int, int> > T;
+
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < N; j++) {
 			char a;

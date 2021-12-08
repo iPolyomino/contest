@@ -45,6 +45,7 @@ int main()
 	cin >> N >> M;
 
 	vector < int >A(M), B(M);
+
 	for (int i = 0; i < M; i++) {
 		cin >> A[i] >> B[i];
 		A[i]--;
@@ -58,6 +59,7 @@ int main()
 	}
 
 	int ans = 0;
+
 	for (int i = 0; i < N; i++) {
 		ans = max(ans, uf.size(i));
 	}

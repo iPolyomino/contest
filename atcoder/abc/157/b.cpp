@@ -15,14 +15,17 @@ int main()
 	}
 
 	int N;
+
 	cin >> N;
 	vector < int >b(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> b[i];
 	}
 	sort(b.begin(), b.end());
 
 	bool isOpen[CARD_SIZE][CARD_SIZE];
+
 	for (int i = 0; i < CARD_SIZE; i++) {
 		for (int j = 0; j < CARD_SIZE; j++) {
 			isOpen[i][j] =

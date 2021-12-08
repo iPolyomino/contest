@@ -11,6 +11,7 @@ int main()
 	cin >> N;
 
 	vector < ll > x(N), y(N), h(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> x[i] >> y[i] >> h[i];
 	}

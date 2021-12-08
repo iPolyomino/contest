@@ -12,6 +12,7 @@ int main()
 
 	int ans = 0;
 	int s = 0;
+
 	for (int i = 0; i < 5; i++) {
 		ans += M[i];
 		if (M[i] % 10 != 0) {

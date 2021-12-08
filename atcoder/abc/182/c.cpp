@@ -13,6 +13,7 @@ int main()
 
 	int sum = 0;
 	int mod[] = { 0, 0, 0 };
+
 	for (size_t i = 0; i < N.size(); i++) {
 		digits.push_back(N[i] - '0');
 		sum += digits[i];

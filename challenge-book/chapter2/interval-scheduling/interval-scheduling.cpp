@@ -27,6 +27,7 @@ int main()
 	sort(itv, itv + N);
 
 	int ans = 0, t = 0;
+
 	for (int i = 0; i < N; i++) {
 		if (t < itv[i].second) {
 			ans++;

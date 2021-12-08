@@ -13,6 +13,7 @@ int main()
 		return 0;
 	}
 	vector < int >p(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> p[i];
 	}
@@ -20,6 +21,7 @@ int main()
 	sort(p.begin(), p.end());
 
 	int leftIndex, rightIndex;
+
 	leftIndex = rightIndex = 0;
 	for (int i = 1; i < N; i++) {
 		if (abs(p[i] - X) < abs(p[leftIndex] - X)) {

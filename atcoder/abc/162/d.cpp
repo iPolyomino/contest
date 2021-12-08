@@ -10,6 +10,7 @@ int main()
 
 	cin >> N;
 	string S;
+
 	cin >> S;
 
 	ll r = 0, g = 0, b = 0;

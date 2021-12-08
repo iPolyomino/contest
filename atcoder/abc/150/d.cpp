@@ -11,11 +11,13 @@ int main()
 	cin >> N >> M;
 
 	vector < ll > a(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> a[i];
 	}
 
 	ll lcm = 1;
+
 	for (int i = 0; i < N; i++) {
 		ll half = a[i] / 2;
 		lcm = half * lcm / __gcd(half, lcm);

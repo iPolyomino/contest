@@ -11,6 +11,7 @@ int main()
 	cin >> N;
 
 	ll ans = 0;
+
 	for (ll i = 2; i * i <= N; i++) {
 		ll powN = 1;
 		ll cnt = 0;

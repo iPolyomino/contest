@@ -8,6 +8,7 @@ int main()
 
 	cin >> N;
 	string s;
+
 	cin >> s;
 
 	int red = 0;

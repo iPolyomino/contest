@@ -9,6 +9,7 @@ int main()
 	cin >> A >> B >> C >> K;
 
 	int ans = 0;
+
 	if (K <= A) {
 		ans = K;
 	} else if (K <= A + B) {

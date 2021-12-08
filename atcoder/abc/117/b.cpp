@@ -8,6 +8,7 @@ int main()
 
 	cin >> N;
 	vector < int >L(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> L[i];
 	}
@@ -15,6 +16,7 @@ int main()
 	sort(L.begin(), L.end());
 
 	int max = L.back();
+
 	L.pop_back();
 
 	int sum = accumulate(L.begin(), L.end(), 0);

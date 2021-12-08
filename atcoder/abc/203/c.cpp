@@ -11,6 +11,7 @@ int main()
 	cin >> N >> K;
 
 	vector<pair<ll, ll> >AB(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> AB[i].first >> AB[i].second;
 	}
@@ -20,6 +21,7 @@ int main()
 	ll money = K;
 
 	int i = 0;
+
 	while ( i < N && AB[i].first <= money ) {
 		money += AB[i].second;
 		i++;

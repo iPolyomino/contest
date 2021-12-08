@@ -11,6 +11,7 @@ int main()
 	cin >> N;
 
 	vector < ll > A(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> A[i];
 	}
@@ -29,6 +30,7 @@ int main()
 	}
 
 	ll ans = 1;
+
 	for (int i = 0; i < N; i++) {
 		if (i == 0) {
 			ans = max(ans, gcdr[i + 1]);

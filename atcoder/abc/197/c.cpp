@@ -9,11 +9,13 @@ int main()
 	cin >> N;
 
 	vector<int> A(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> A[i];
 	}
 
 	int ans = INT_MAX;
+
 	for (int bits = 0; bits < (1 << (N - 1)); bits++) {
 		int xored = 0;
 		int ored = 0;

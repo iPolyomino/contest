@@ -9,6 +9,7 @@ int main()
 	cin >> n;
 
 	int p[10010];
+
 	for (int i = 0; i < n; i++) {
 		cin >> p[i];
 	}

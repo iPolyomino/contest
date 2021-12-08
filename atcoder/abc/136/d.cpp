@@ -11,6 +11,7 @@ int main()
 	vector < int >ans(S.size(), 0);
 
 	int index = 0;
+
 	while ((size_t)index < S.size()) {
 		int head = index;
 		int LEnd = 0;

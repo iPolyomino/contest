@@ -8,6 +8,7 @@ int main()
 
 	cin >> H >> W >> K;
 	vector < string > c(H);
+
 	for (int i = 0; i < H; i++) {
 		cin >> c[i];
 	}

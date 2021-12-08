@@ -10,6 +10,7 @@ int main()
 
 	cin >> N >> S >> D;
 	vector < ll > X(N), Y(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> X[i] >> Y[i];
 	}

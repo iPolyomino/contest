@@ -18,6 +18,7 @@ int main()
 	}
 
 	vector<int>memo = T;
+
 	for (int i = 0; i < N * 2; i++) {
 		memo[(i + 1) % N] = min(memo[(i + 1) % N], memo[i % N] + S[i % N]);
 	}

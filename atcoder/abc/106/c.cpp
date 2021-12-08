@@ -11,6 +11,7 @@ int main()
 	cin >> S;
 
 	ll K;
+
 	cin >> K;
 
 	for (int i = 0; i < min(K, (ll)S.size()); i++) {

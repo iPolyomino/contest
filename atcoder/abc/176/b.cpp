@@ -9,6 +9,7 @@ int main()
 	cin >> N;
 
 	int sum = 0;
+
 	for (size_t i = 0; i < N.size(); i++) {
 		sum += N[i] - '0';
 		sum %= 9;

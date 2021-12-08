@@ -8,6 +8,7 @@ int main()
 
 	cin >> N;
 	vector < int >A(N, 0), B(N - 1);
+
 	for (int i = 0; i < N - 1; i++) {
 		cin >> B[i];
 	}

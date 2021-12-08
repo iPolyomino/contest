@@ -10,6 +10,7 @@ int main()
 	cin >> N;
 
 	int ans = 0;
+
 	while (N > 1) {
 		N /= 2;
 		ans++;

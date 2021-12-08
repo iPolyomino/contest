@@ -22,6 +22,7 @@ int main()
 	sort(B.begin(), B.end());
 
 	int i, j;
+
 	i = j = 0;
 
 	int minDiff = INT_MAX;

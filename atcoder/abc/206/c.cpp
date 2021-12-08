@@ -10,6 +10,7 @@ int main()
 
 	cin >> N;
 	vector<ll> A(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> A[i];
 	}
@@ -26,6 +27,7 @@ int main()
 	}
 
 	ll ans = N * (N - 1) / 2;
+
 	for (auto &c : counter) {
 		if (c.second > 1) {
 			ans -= (c.second - 1) * c.second / 2;

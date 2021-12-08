@@ -10,6 +10,7 @@ int main()
 
 	cin >> N;
 	vector < ll > H(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> H[i];
 	}

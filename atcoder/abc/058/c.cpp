@@ -8,11 +8,13 @@ int main()
 
 	cin >> n;
 	vector < string > S(n);
+
 	for (int i = 0; i < n; i++) {
 		cin >> S[i];
 	}
 
 	vector < vector < int > >cnt(26, vector < int >(n));
+
 	for (int i = 0; i < n; i++) {
 		for (size_t j = 0; j < S[i].size(); j++) {
 			cnt[S[i][j] - 'a'][i]++;
@@ -20,6 +22,7 @@ int main()
 	}
 
 	int ans[26];
+
 	for (int i = 0; i < 26; i++) {
 		ans[i] = INT_MAX;
 	}

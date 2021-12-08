@@ -10,11 +10,13 @@ int main()
 
 	cin >> N;
 	vector < ll > a(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> a[i];
 	}
 
 	ll ans = 0;
+
 	for (int i = 0; i < N; i++) {
 		ans += a[i] - 1;
 	}

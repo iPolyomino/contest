@@ -8,6 +8,7 @@ int main()
 
 	cin >> N;
 	vector <double> A(N), B(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> A[i] >> B[i];
 	}
@@ -21,6 +22,7 @@ int main()
 	time /= 2.0;
 
 	double ans = 0;
+
 	for (int i = 0; i < N; i++) {
 		ans += min(A[i], time * B[i]);
 		time -= min(A[i] / B[i], time);

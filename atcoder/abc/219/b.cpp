@@ -10,6 +10,7 @@ int main()
 		cin >> S[i];
 	}
 	string T;
+
 	cin >> T;
 
 	for (size_t i = 0; i < T.size(); i++) {

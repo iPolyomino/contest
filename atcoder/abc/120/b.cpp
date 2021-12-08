@@ -9,6 +9,7 @@ int main()
 	cin >> a >> b >> k;
 
 	int cnt = 0;
+
 	for (int i = 100; i > 0; i--) {
 		if (a % i == 0 && b % i == 0) {
 			cnt++;

@@ -10,6 +10,7 @@ int main()
 		cin >> A[i];
 	}
 	int K;
+
 	cin >> K;
 
 	sort(A.begin(), A.end());

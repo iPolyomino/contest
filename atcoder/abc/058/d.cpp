@@ -31,6 +31,7 @@ int main()
 	}
 
 	ll ans = a * b % MOD;
+
 	cout << ans << endl;
 
 	return 0;

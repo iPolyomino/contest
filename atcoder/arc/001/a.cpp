@@ -9,10 +9,12 @@ int main()
 	cin >> N;
 
 	string S;
+
 	cin >> S;
 
 	int maxCount = INT_MIN;
 	int minCount = INT_MAX;
+
 	for (int i = 0; i < 4; i++) {
 		int cnt = count(S.begin(), S.end(), (char)('1' + i));
 		maxCount = max(maxCount, cnt);

@@ -8,6 +8,7 @@ int main()
 
 	cin >> N >> X;
 	vector < int >m(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> m[i];
 	}

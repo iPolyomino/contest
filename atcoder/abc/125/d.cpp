@@ -10,6 +10,7 @@ int main()
 
 	cin >> N;
 	vector < ll > A(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> A[i];
 	}
@@ -17,6 +18,7 @@ int main()
 	sort(A.begin(), A.end());
 
 	int minusCount = 0;
+
 	for (int i = 0; i < N; i++) {
 		if (A[i] < 0) {
 			minusCount++;
@@ -30,6 +32,7 @@ int main()
 	}
 
 	ll zeroDiff = LLONG_MAX;
+
 	for (int i = 0; i < N; i++) {
 		if (A[i] < zeroDiff) {
 			zeroDiff = A[i];

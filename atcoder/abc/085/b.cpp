@@ -13,6 +13,7 @@ int main()
 	}
 
 	set < int >values;
+
 	for (int i = 0; i < n; i++) {
 		values.insert(d[i]);
 	}

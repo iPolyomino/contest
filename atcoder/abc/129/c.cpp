@@ -11,6 +11,7 @@ int main()
 	cin >> N >> M;
 
 	vector < int >a(M);
+
 	for (int i = 0; i < M; i++) {
 		cin >> a[i];
 		a[i]--;

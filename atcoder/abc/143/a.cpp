@@ -9,6 +9,7 @@ int main()
 	cin >> A >> B;
 
 	int ans = A - B * 2;
+
 	if (ans < 0) {
 		cout << 0 << endl;
 	} else {

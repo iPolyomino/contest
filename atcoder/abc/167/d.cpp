@@ -10,6 +10,7 @@ int main()
 
 	cin >> N >> K;
 	vector < ll > A(N + 1);
+
 	for (ll i = 1; i <= N; i++) {
 		cin >> A[i];
 	}
@@ -17,6 +18,7 @@ int main()
 	set < ll > went;
 	ll current = 1;
 	ll roopStartNum = 0;
+
 	for (ll i = 1; i <= N; i++) {
 		if (went.find(current) != went.end()) {
 			roopStartNum = current;

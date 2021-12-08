@@ -8,6 +8,7 @@ int main()
 
 	cin >> N;
 	string S, T;
+
 	cin >> S >> T;
 	for (int i = 0; i < N; i++) {
 		cout << S[i] << T[i];

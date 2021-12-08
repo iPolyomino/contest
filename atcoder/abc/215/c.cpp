@@ -13,6 +13,7 @@ int main()
 
 	sort(S.begin(), S.end());
 	int counter = 1;
+
 	do {
 		if (counter == K) {
 			cout << S << endl;

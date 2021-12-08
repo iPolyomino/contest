@@ -12,6 +12,7 @@ int main()
 	ll gcd = __gcd(A, B);
 
 	ll ans = 0;
+
 	for (ll i = 2; i * i <= gcd; i++) {
 		if (gcd % i == 0) {
 			ans++;

@@ -8,6 +8,7 @@ int main()
 
 	cin >> a;
 	string s;
+
 	cin >> s;
 	if (a >= 3200) {
 		cout << s << endl;

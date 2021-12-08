@@ -8,6 +8,7 @@ int main()
 
 	cin >> N >> K;
 	string S;
+
 	cin >> S;
 
 	S[K - 1] = S[K - 1] + 'a' - 'A';

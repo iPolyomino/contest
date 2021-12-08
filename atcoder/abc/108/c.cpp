@@ -11,6 +11,7 @@ int main()
 	cin >> N >> K;
 
 	ll nk = N / K;
+
 	if (K % 2 == 1) {
 		cout << nk * nk * nk << endl;
 		return 0;

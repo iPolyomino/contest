@@ -10,11 +10,13 @@ int main()
 
 	cin >> N;
 	vector < ll > A(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> A[i];
 	}
 
 	ll current, ans;
+
 	ans = 0;
 	current = A[0];
 	for (int i = 1; i < N; i++) {

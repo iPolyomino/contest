@@ -8,6 +8,7 @@ int main()
 
 	cin >> N;
 	vector < string > S(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> S[i];
 	}

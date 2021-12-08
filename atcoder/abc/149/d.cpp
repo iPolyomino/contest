@@ -8,11 +8,14 @@ int main()
 
 	cin >> N >> K;
 	int R, S, P;
+
 	cin >> R >> S >> P;
 	string T;
+
 	cin >> T;
 
 	int score = 0;
+
 	for (int i = 0; i < N; i++) {
 		if (K <= i && T[i] == T[i - K]) {
 			T[i] = '0';

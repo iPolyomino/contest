@@ -9,6 +9,7 @@ int main()
 	cin >> A >> B >> C;
 	int mi = min(A, B);
 	int ma = max(A, B);
+
 	if (mi <= C && C <= ma) {
 		cout << "Yes" << endl;
 	} else {

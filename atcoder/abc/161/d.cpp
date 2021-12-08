@@ -11,6 +11,7 @@ int main()
 	cin >> K;
 
 	queue < ll > que;
+
 	for (int i = 1; i <= 9; i++) {
 		que.push(i);
 	}

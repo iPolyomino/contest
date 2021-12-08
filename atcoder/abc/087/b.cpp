@@ -9,6 +9,7 @@ int main()
 	cin >> a >> b >> c;
 
 	int x;
+
 	cin >> x;
 
 	int result = 0;

@@ -9,6 +9,7 @@ int main()
 	cin >> n >> k;
 
 	int h[100000];
+
 	for (int i = 0; i < n; i++) {
 		cin >> h[i];
 	}

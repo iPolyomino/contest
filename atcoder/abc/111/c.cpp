@@ -10,6 +10,7 @@ int main()
 
 	cin >> n;
 	vector < int >v(n);
+
 	for (int i = 0; i < n; i++) {
 		cin >> v[i];
 	}
@@ -26,8 +27,10 @@ int main()
 	}
 
 	int oddMaxIndex, evenMaxIndex;
+
 	oddMaxIndex = evenMaxIndex = 0;
 	int oddSecondMaxIndex, evenSecondMaxIndex;
+
 	oddSecondMaxIndex = evenSecondMaxIndex = 0;
 
 	for (int i = 1; i < V_MAX; i++) {

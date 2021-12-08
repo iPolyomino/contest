@@ -8,11 +8,13 @@ int main()
 
 	cin >> N;
 	vector < string > W(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> W[i];
 	}
 
 	bool isOK = true;
+
 	for (int i = 1; i < N && isOK; i++) {
 		if (W[i - 1].back() != W[i].front()) {
 			isOK = false;

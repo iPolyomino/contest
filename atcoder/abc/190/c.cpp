@@ -14,13 +14,16 @@ int main()
 	}
 
 	int K;
+
 	cin >> K;
 	vector<pair<int, int> > choice(K);
+
 	for (int i = 0; i < K; i++) {
 		cin >> choice[i].first >> choice[i].second;
 	}
 
 	int ans = 0;
+
 	for (int bit = 0; bit < 1 << K; bit++) {
 		vector<bool> ball(N);
 		for (int i = 0; i < K; i++) {

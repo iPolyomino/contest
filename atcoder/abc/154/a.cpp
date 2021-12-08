@@ -8,8 +8,10 @@ int main()
 
 	cin >> S >> T;
 	int A, B;
+
 	cin >> A >> B;
 	string U;
+
 	cin >> U;
 	if (S == U) {
 		A--;

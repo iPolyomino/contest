@@ -9,6 +9,7 @@ int main()
 	cin >> S;
 
 	int ans = 0;
+
 	for (size_t i = 1; i <= S.size(); i++) {
 		if (S.find(string(i, 'R')) != string::npos) {
 			ans = i;

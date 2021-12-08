@@ -8,6 +8,7 @@ int main()
 
 	cin >> N;
 	vector < pair < int, int > >D(N);
+
 	for (int i = 0; i < N; i++) {
 		int a, b;
 		cin >> a >> b;
@@ -15,6 +16,7 @@ int main()
 	}
 
 	int state = 0;
+
 	for (int i = 0; i < N; i++) {
 		if (D[i].first == D[i].second) {
 			state++;

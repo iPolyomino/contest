@@ -8,12 +8,14 @@ int main()
 
 	cin >> N >> K;
 	string S;
+
 	cin >> S;
 
 	// 1-0-1-0-...-1-0-1
 	vector < int >nums;
 	int now = 1;
 	int cnt = 0;
+
 	for (int i = 0; i < N; i++) {
 		if (S[i] == (char)('0' + now)) {
 			cnt++;

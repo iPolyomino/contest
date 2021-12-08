@@ -15,6 +15,7 @@ int main()
 	}
 
 	vector < int >v[N + 1];
+
 	for (int i = 0; i < M; i++) {
 		v[P[i]].push_back(Y[i]);
 	}

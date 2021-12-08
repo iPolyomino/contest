@@ -8,6 +8,7 @@ int main()
 
 	cin >> N;
 	vector < int >A(N), P(N), X(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> A[i] >> P[i] >> X[i];
 	}

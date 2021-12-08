@@ -8,6 +8,7 @@ int main()
 
 	cin >> S >> T;
 	int ans = 0;
+
 	for (int i = 0; (size_t)i < S.size(); i++) {
 		if (S[i] == T[i]) {
 			ans++;

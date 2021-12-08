@@ -8,9 +8,11 @@ int main()
 
 	cin >> N;
 	string S;
+
 	cin >> S;
 
 	int lparen = 0, rparen = 0;
+
 	for (int i = 0; i < N; i++) {
 		if (S[i] == '(') {
 			lparen++;

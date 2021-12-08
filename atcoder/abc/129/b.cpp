@@ -8,11 +8,13 @@ int main()
 
 	cin >> N;
 	vector < int >W(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> W[i];
 	}
 
 	int sum = 0;
+
 	for (int i = 0; i < N; i++) {
 		sum += W[i];
 	}

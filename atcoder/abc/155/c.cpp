@@ -17,6 +17,7 @@ int main()
 
 	cin >> N;
 	vector < string > S(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> S[i];
 	}
@@ -24,11 +25,13 @@ int main()
 	sort(S.begin(), S.end());
 
 	map < string, int >freq;
+
 	for (int i = 0; i < N; i++) {
 		freq[S[i]]++;
 	}
 
 	int freqMax = 0;
+
 	for (int i = 0; i < N; i++) {
 		freqMax = max(freqMax, freq[S[i]]);
 	}

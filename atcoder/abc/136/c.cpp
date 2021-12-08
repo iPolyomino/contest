@@ -8,11 +8,13 @@ int main()
 
 	cin >> N;
 	vector < int >H(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> H[i];
 	}
 
 	int current = H[0] - 1;
+
 	for (int i = 0; i < N; i++) {
 		if (H[i] < current) {
 			cout << "No" << endl;

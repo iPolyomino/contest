@@ -24,6 +24,7 @@ int main()
 	cin >> N;
 
 	ll ans = mypow(10, N) - mypow(9, N) * 2 + mypow(8, N);
+
 	ans %= MOD;
 	ans = (ans + MOD) % MOD;
 	cout << ans << endl;

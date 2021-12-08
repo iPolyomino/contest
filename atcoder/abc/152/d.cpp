@@ -22,12 +22,14 @@ int main()
 
 	cin >> N;
 	map < P, int >freq;
+
 	for (int i = 1; i <= N; i++) {
 		P p = f(i);
 		freq[p]++;
 	}
 
 	long long ans = 0;
+
 	for (int i = 1; i <= N; i++) {
 		P p = f(i);
 		P q(p.second, p.first);

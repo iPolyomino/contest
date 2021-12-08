@@ -9,6 +9,7 @@ int main()
 	cin >> N;
 
 	vector<pair<string, string> > ST(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> ST[i].first >> ST[i].second;
 	}

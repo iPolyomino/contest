@@ -22,6 +22,7 @@ int main()
 	cin >> x;
 
 	int i = 2;
+
 	while (i < x || !isPrime(i)) {
 		if (isPrime(i)) {
 			prime_number.push_back(i);

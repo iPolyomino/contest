@@ -10,6 +10,7 @@ int main()
 
 	cin >> N >> K;
 	vector < ll > x(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> x[i];
 	}

@@ -9,6 +9,7 @@ int main()
 	cin >> S >> T;
 
 	int ans = 0;
+
 	for (int a = 0; a <= S; a++) {
 		for (int b = 0; a + b <= S; b++) {
 			for (int c = 0; a + b + c <= S; c++) {

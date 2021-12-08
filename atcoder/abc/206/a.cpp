@@ -8,6 +8,7 @@ int main()
 
 	cin >> N;
 	int c = floor(1.08 * N);
+
 	if (c < 206) {
 		cout << "Yay!" << endl;
 	} else if (c == 206) {

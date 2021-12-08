@@ -11,6 +11,7 @@ int main()
 	int n = atoi((a + b).c_str());
 
 	int i = 1;
+
 	while (i * i < n) {
 		i++;
 	}

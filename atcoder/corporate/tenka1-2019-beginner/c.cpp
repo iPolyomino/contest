@@ -9,6 +9,7 @@ int main()
 	cin >> N;
 
 	string S;
+
 	cin >> S;
 
 	int white = 0, black = 0;
@@ -20,6 +21,7 @@ int main()
 	}
 
 	int ans = white;
+
 	for (int i = 0; i < N; i++) {
 		if (S[i] == '.') {
 			white--;

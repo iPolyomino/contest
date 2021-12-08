@@ -8,6 +8,7 @@ int main()
 
 	cin >> N >> K >> M;
 	vector < int >A(N - 1);
+
 	for (int i = 0; i < N - 1; i++) {
 		cin >> A[i];
 	}

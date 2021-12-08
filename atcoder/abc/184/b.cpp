@@ -8,6 +8,7 @@ int main()
 
 	cin >> N >> X;
 	string S;
+
 	cin >> S;
 
 	int score = X;

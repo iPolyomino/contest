@@ -10,6 +10,7 @@ int main()
 
 	cin >> N;
 	vector < int >A(N), B(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> A[i];
 	}
@@ -18,6 +19,7 @@ int main()
 	}
 
 	ll ans = 0;
+
 	for (int i = 0; i < N; i++) {
 		ans += A[i] * B[i];
 	}

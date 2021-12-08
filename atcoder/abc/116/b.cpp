@@ -19,6 +19,7 @@ int main()
 	set < int >logset;
 
 	int a = s;
+
 	logset.insert(a);
 	for (int i = 2; i < 1000010; i++) {
 		a = f(a);

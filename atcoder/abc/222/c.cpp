@@ -44,6 +44,7 @@ int main()
 
 	// index, win
 	vector<pair<int, int> > win(2 * N);
+
 	for (int i = 0; i < 2 * N; i++) {
 		win[i] = make_pair(i, 0);
 	}

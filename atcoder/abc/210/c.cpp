@@ -10,6 +10,7 @@ int main()
 	cin >> N >> K;
 
 	vector <int> c(N + 1);
+
 	for (int i = 0; i < N; i++) {
 		cin >> c[i];
 	}

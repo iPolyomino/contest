@@ -8,6 +8,7 @@ int main()
 
 	cin >> N;
 	vector < int >a(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> a[i];
 	}
@@ -21,6 +22,7 @@ int main()
 	}
 
 	int ans = 0;
+
 	for (int i = 0; i < 8; i++) {
 		if (rate[i] != 0) {
 			ans++;

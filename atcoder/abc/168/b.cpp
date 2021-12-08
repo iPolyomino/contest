@@ -8,6 +8,7 @@ int main()
 
 	cin >> K;
 	string S;
+
 	cin >> S;
 
 	for (size_t i = 0; i < min((size_t)K, S.size()); i++) {

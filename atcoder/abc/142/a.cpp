@@ -9,6 +9,7 @@ int main()
 	cin >> N;
 
 	int odd = ceil((double)N / 2);
+
 	printf("%.10f\n", (double)odd / N);
 
 	return 0;

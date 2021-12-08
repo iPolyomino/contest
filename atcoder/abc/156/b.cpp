@@ -9,6 +9,7 @@ int main()
 	cin >> N >> K;
 
 	int ans = 1;
+
 	while (pow(K, ans) <= N) {
 		ans++;
 	}

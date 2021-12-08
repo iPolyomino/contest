@@ -19,6 +19,7 @@ int main()
 
 	int n = 10;
 	int ans = 0;
+
 	while (P > 0) {
 		int nFact = factorial(n);
 		if (nFact <= P) {

@@ -10,6 +10,7 @@ int main()
 
 	int start = X - K + 1;
 	int end = X + K - 1;
+
 	for (int i = start; i <= end; i++) {
 		cout << i << " ";
 	}

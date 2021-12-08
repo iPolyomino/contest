@@ -8,6 +8,7 @@ int main()
 
 	cin >> N;
 	string S;
+
 	cin >> S;
 
 	if (S[N - 1] == 'o') {

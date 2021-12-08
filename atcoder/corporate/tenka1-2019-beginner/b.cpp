@@ -8,10 +8,12 @@ int main()
 
 	cin >> N;
 	vector < char >S(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> S[i];
 	}
 	int K;
+
 	cin >> K;
 
 	for (int i = 0; i < N; i++) {

@@ -10,6 +10,7 @@ int main()
 	cin >> T;
 
 	int changeMin = INT_MAX;
+
 	for (size_t i = 0; i <= S.size() - T.size(); i++) {
 		int change = 0;
 		for (size_t j = 0; j < T.size(); j++) {

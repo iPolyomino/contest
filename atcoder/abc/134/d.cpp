@@ -8,11 +8,13 @@ int main()
 
 	cin >> N;
 	vector < int >a(N + 1), boxes(N + 1, 0);
+
 	for (int i = 1; i <= N; i++) {
 		cin >> a[i];
 	}
 
 	vector < int >ans;
+
 	for (int i = N; i > 0; i--) {
 		int ii = i;
 		int sum = 0;

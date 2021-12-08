@@ -8,10 +8,13 @@ int main()
 
 	cin >> N;
 	string S;
+
 	cin >> S;
 	int Q;
+
 	cin >> Q;
 	vector<int> T(Q), A(Q), B(Q);
+
 	for (int i = 0; i < Q; i++) {
 		cin >> T[i] >> A[i] >> B[i];
 		A[i]--;

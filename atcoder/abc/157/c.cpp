@@ -8,6 +8,7 @@ int main()
 
 	cin >> N >> M;
 	vector < pair < int, int > >sc(M);
+
 	for (int i = 0; i < M; i++) {
 		int s, c;
 		cin >> s >> c;
@@ -19,6 +20,7 @@ int main()
 	vector < int >ans(N, 0);
 
 	bool isFirstCaracterSpecified = false;
+
 	for (int i = 0; i < M; i++) {
 		if (i > 0) {
 			if (sc[i - 1].first == sc[i].first

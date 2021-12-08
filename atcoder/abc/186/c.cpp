@@ -21,6 +21,7 @@ int main()
 	cin >> N;
 
 	int ans = 0;
+
 	for (int i = 1; i <= N; i++) {
 		ostringstream str;
 		str << oct << i;

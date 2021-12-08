@@ -26,6 +26,7 @@ int main()
 	}
 
 	set < int >evelyone = K[0];
+
 	for (int i = 1; i < N; i++) {
 		set < int >tmp_set;
 		set_intersection(evelyone.begin(), evelyone.end(), K[i].begin(),

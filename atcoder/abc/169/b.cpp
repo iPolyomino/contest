@@ -11,6 +11,7 @@ int main()
 	cin >> N;
 
 	vector < ll > A(N);
+
 	for (ll i = 0; i < N; i++) {
 		cin >> A[i];
 	}
@@ -18,6 +19,7 @@ int main()
 	sort(A.begin(), A.end());
 
 	ll prod = 1;
+
 	for (ll i = 0; i < N; i++) {
 		if (A[i] == 0) {
 			cout << 0 << endl;

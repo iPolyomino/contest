@@ -12,12 +12,14 @@ int main()
 
 	vector<int> A(N);
 	vector<int> B(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> A[i] >> B[i];
 	}
 
 
 	vector<int> ys(A);
+
 	sort(all(ys));
 	ys.erase(unique(all(ys)), ys.end());
 	for (int i = 0; i < N; i++) {
@@ -25,6 +27,7 @@ int main()
 	}
 
 	vector<int> xs(B);
+
 	sort(all(xs));
 	xs.erase(unique(all(xs)), xs.end());
 	for (int i = 0; i < N; i++) {

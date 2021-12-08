@@ -11,6 +11,7 @@ int main()
 	cin >> N >> M >> K;
 
 	vector < ll > A(N), B(M);
+
 	for (int i = 0; i < N; i++) {
 		cin >> A[i];
 	}
@@ -20,6 +21,7 @@ int main()
 	}
 
 	vector < ll > SumA(N + 1), SumB(M + 1);
+
 	SumA[0] = 0;
 	SumB[0] = 0;
 	for (int i = 0; i < N; i++) {

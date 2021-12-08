@@ -9,6 +9,7 @@ int main()
 	cin >> L;
 
 	__int128_t ans = 1;
+
 	for (int i = 0; i < 11; i++) {
 		ans *= L - i - 1;
 	}

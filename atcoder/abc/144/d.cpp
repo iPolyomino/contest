@@ -9,6 +9,7 @@ int main()
 	cin >> a >> b >> x;
 	double full = a * a * b;
 	double half = full / 2.0;
+
 	if (half <= x) {
 		double height = (full - x) / (a * a) * 2;
 		double theta = atan(height / a) * 180 / M_PI;

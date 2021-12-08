@@ -15,6 +15,7 @@ int main()
 	}
 
 	bool isPossible = true;
+
 	for (int i = 0; i < n; i++) {
 		int dt = t[i + 1] - t[i];
 		int dist = abs(x[i + 1] - x[i]) + abs(y[i + 1] - y[i]);

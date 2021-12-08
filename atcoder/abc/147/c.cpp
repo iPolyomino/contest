@@ -9,6 +9,7 @@ int main()
 	cin >> N;
 	vector < int >A(N);
 	vector < vector < pair < int, int > > >xy;
+
 	for (int i = 0; i < N; i++) {
 		cin >> A[i];
 		vector < pair < int, int > >testimony;
@@ -21,6 +22,7 @@ int main()
 	}
 
 	int ans = 0;
+
 	for (int bits = 1; bits < (1 << N); bits++) {
 		bool isOK = true;
 		int honest = 0;

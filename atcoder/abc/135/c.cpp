@@ -10,6 +10,7 @@ int main()
 
 	cin >> N;
 	vector < int >A(N + 1), B(N);
+
 	for (int i = 0; i < N + 1; i++) {
 		cin >> A[i];
 	}
@@ -18,6 +19,7 @@ int main()
 	}
 
 	ll ans = 0;
+
 	for (int i = 0; i < N + 1; i++) {
 		ll sub = min(A[i], B[i]);
 		B[i] -= sub;

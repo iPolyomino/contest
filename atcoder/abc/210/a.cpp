@@ -9,6 +9,7 @@ int main()
 	cin >> N >> A >> X >> Y;
 
 	int ans;
+
 	ans = X * N;
 
 	if (N > A) {

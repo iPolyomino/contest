@@ -10,6 +10,7 @@ int main()
 
 	int min = L;
 	int sum = 0;
+
 	for (int i = L; i <= L + N - 1; i++) {
 		if (abs(i) < abs(min)) {
 			min = i;

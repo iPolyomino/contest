@@ -11,6 +11,7 @@ int main()
 	cin >> N;
 
 	vector < ll > A(1 << N);
+
 	for (int i = 0; i < (1 << N); i++) {
 		cin >> A[i];
 	}

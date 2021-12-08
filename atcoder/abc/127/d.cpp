@@ -11,16 +11,19 @@ int main()
 	cin >> N >> M;
 
 	vector < ll > A(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> A[i];
 	}
 
 	vector < ll > B(M), C(M);
+
 	for (int i = 0; i < M; i++) {
 		cin >> B[i] >> C[i];
 	}
 
 	vector < pair < ll, ll > > CB(M);
+
 	for (int i = 0; i < M; i++) {
 		CB[i] = make_pair(C[i], B[i]);
 	}
@@ -30,6 +33,7 @@ int main()
 
 	ll sum = 0;
 	int aIndex, cbIndex;
+
 	aIndex = cbIndex = 0;
 
 	int i = 0;

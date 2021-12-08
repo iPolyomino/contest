@@ -9,6 +9,7 @@ int main()
 	cin >> s;
 
 	int zero, one;
+
 	zero = one = 0;
 
 	for (int i = 0; (size_t)i < s.size(); i++) {

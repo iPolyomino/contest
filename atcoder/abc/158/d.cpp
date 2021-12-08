@@ -8,6 +8,7 @@ int main()
 
 	cin >> S;
 	int Q;
+
 	cin >> Q;
 
 	bool isReverse = false;

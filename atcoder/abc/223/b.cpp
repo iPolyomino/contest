@@ -11,6 +11,7 @@ int main()
 
 	string minS = S;
 	string maxS = S;
+
 	for (size_t i = 0; i < S.size(); i++) {
 		string comp = SS.substr(i, S.size());
 		if (comp < minS) {

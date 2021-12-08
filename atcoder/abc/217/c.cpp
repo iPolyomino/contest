@@ -8,6 +8,7 @@ int main()
 
 	cin >> N;
 	vector<int>p(N), q(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> p[i];
 		p[i]--;

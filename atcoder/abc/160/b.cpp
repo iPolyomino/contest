@@ -10,6 +10,7 @@ int main()
 	int fiveHundredYen = X / 500;
 	int ans = fiveHundredYen * 1000;
 	int fiveYen = (X - 500 * fiveHundredYen) / 5;
+
 	ans += fiveYen * 5;
 
 	cout << ans << endl;

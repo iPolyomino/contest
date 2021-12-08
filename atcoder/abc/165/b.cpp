@@ -12,6 +12,7 @@ int main()
 
 	ll year = 0;
 	ll currnet = 100;
+
 	while (currnet < X) {
 		currnet *= 1.01;
 		year++;

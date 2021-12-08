@@ -9,6 +9,7 @@ int main()
 	cin >> N;
 
 	vector < int >A(N - 1);
+
 	for (int i = 0; i < N - 1; i++) {
 		cin >> A[i];
 	}
@@ -16,6 +17,7 @@ int main()
 	sort(A.begin(), A.end());
 
 	int index = 0;
+
 	for (int i = 1; i <= N; i++) {
 		int count = 0;
 		while ((size_t)index < A.size()) {

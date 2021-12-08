@@ -8,12 +8,14 @@ int main()
 
 	cin >> N >> K;
 	vector < int >p(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> p[i];
 	}
 
 	vector < double >pp(N);
 	double sum = 0;
+
 	for (int i = 0; i < K; i++) {
 		pp[i] = (double)(p[i] + 1) / 2;
 		sum += pp[i];

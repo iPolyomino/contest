@@ -8,11 +8,13 @@ int main()
 
 	cin >> N;
 	vector < int >A(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> A[i];
 	}
 
 	double ans = 0;
+
 	for (int i = 0; i < N; i++) {
 		ans += 1.0 / (double)A[i];
 	}

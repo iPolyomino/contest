@@ -8,6 +8,7 @@ int main()
 
 	cin >> S;
 	vector < int >num;
+
 	for (size_t i = 0; i < S.size(); i++) {
 		int n = S[i] - '0';
 		int cnt = 0;

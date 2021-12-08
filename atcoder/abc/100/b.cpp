@@ -21,6 +21,7 @@ int main()
 
 	int nb = 0;
 	int i = 0;
+
 	while (nb < N) {
 		i++;
 		if (div(i) == D) {

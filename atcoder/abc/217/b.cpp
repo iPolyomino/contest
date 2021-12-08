@@ -15,6 +15,7 @@ int main()
 	set <string> SALL = { "ABC", "ARC", "AGC", "AHC" };
 
 	set <string> df;
+
 	set_difference( SALL.begin(), SALL.end(), SS.begin(), SS.end(), inserter(df, df.end()));
 
 	cout << *df.begin() << endl;

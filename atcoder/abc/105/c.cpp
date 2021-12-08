@@ -11,6 +11,7 @@ int main()
 	int a = N;
 
 	string ans;
+
 	if (a == 0) {
 		ans = "0";
 	}

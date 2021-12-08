@@ -8,6 +8,7 @@ int main()
 
 	cin >> N;
 	int ans = 0;
+
 	for (int i = 1; i <= N; i++) {
 		if (to_string(i).size() % 2 == 1) {
 			ans++;

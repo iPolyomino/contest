@@ -12,11 +12,13 @@ int main()
 
 	cin >> N;
 	vector < ll > A(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> A[i];
 	}
 
 	ll ans = 0;
+
 	for (int d = 0; d < 60; d++) {
 		ll n0 = 0, n1 = 0;
 		for (int i = 0; i < N; i++) {

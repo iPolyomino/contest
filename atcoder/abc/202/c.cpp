@@ -11,6 +11,7 @@ int main()
 	cin >> N;
 
 	vector<int> A(N), B(N), C(N);
+
 	for (int i = 0; i < N; i++) {
 		cin >> A[i];
 		A[i]--;
@@ -25,12 +26,14 @@ int main()
 	}
 
 	vector<int> cnt(N + 10, 0);
+
 	for (int i = 0; i < N; i++) {
 		cnt[B[C[i]]]++;
 	}
 
 
 	ll ans = 0;
+
 	for (int i = 0; i < N; i++) {
 		ans += cnt[A[i]];
 	}

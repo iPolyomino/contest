@@ -8,6 +8,7 @@ int main()
 
 	cin >> N;
 	string S;
+
 	cin >> S;
 
 	int half = N / 2;

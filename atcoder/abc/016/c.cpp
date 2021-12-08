@@ -8,6 +8,7 @@ int main()
 
 	cin >> N >> M;
 	vector < int >A(M), B(M);
+
 	for (int i = 0; i < M; i++) {
 		cin >> A[i] >> B[i];
 		A[i]--;
@@ -15,6 +16,7 @@ int main()
 	}
 
 	vector < set < int > >friends(N);
+
 	for (int i = 0; i < M; i++) {
 		friends[A[i]].insert(B[i]);
 		friends[B[i]].insert(A[i]);

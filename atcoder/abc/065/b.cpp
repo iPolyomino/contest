@@ -9,6 +9,7 @@ int main()
 	cin >> n;
 
 	int a[100010];
+
 	// don't use a[0]
 	for (int i = 1; i <= n; i++) {
 		cin >> a[i];
