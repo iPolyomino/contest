@@ -19,7 +19,7 @@
 # You will usually need to modify this file for your project.
 
 # Delete this line once you have configured this file
-eprintln($(CWD)/OMakefile is not configured)
+# eprintln($(CWD)/OMakefile is not configured)
 
 ########################################################################
 # Phony targets are scoped, so you probably want to declare them first.
