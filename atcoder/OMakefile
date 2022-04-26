@@ -1,4 +1,4 @@
-CXXFLAGS += -std=gnu++1y
+CXXFLAGS += -std=gnu++2a
 
 .SUBDIRS: $(glob D, *)
 	.SUBDIRS: $(glob D, *)
