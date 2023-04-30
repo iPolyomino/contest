@@ -11,7 +11,7 @@ int main()
 	cin >> N;
 	vector<ll> H(N);
 
-	for (ll i = 0 ; i < N; i++) {
+	for (ll i = 0; i < N; i++) {
 		cin >> H[i];
 	}
 

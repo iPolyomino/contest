@@ -11,7 +11,7 @@ int main()
 
 	int x = 0, y = 0;
 
-	for (size_t i = 0 ; i  < S.size(); i++) {
+	for (size_t i = 0; i  < S.size(); i++) {
 		if (S[i] == 'a') {
 			x++;
 		} else {

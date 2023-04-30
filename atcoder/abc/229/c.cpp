@@ -10,7 +10,7 @@ int main()
 	cin >> N >> W;
 	vector<pair<ll, ll> >AB(N);
 
-	for (int i = 0 ; i < N; i++) {
+	for (int i = 0; i < N; i++) {
 		int A, B;
 		cin >>  A >> B;
 		AB[i] = make_pair(A, B);

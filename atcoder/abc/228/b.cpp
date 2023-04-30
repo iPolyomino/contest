@@ -10,7 +10,7 @@ int main()
 	X--;
 	vector<int> A(N);
 
-	for (int i = 0  ; i < N; i++) {
+	for (int i = 0; i < N; i++) {
 		cin >> A[i];
 		A[i]--;
 	}

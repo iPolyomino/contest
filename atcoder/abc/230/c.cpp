@@ -17,10 +17,10 @@ int main()
 	vector <string>ans;
 	string str = "";
 
-	for (ll i = 0  ; i  < (S - R + 1); i++) {
+	for (ll i = 0; i  < (S - R + 1); i++) {
 		str += ".";
 	}
-	for (ll i = 0 ; i < (Q - P + 1); i++) {
+	for (ll i = 0; i < (Q - P + 1); i++) {
 		ans.push_back(str);
 	}
 
